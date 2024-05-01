@@ -1,3 +1,4 @@
+// * Seccion Varibles
 $card-color: #3B3433
 $fallout-color-a: #DCB722
 $fallout-color-b: #D0B66A
@@ -7,9 +8,12 @@ $Valheim-color-a: #3CBEFA
 $Valheim-color-b: #8BDAFE
 $AShortHike-color-a: #FA841F
 $AShortHike-color-b: #ECAE38
-$HellLetLoose-color-a: #303940
+$HellLetLoose-color-a: #778e9f
 $HellLetLoose-color-b: #FEFEFC
+$MetalHellSinger-color-a: #9F210A
+$MetalHellSinger-color-b: #F93F14
 
+// * General
 body
     background-color: #292423
 
@@ -20,6 +24,8 @@ a
     &:hover
         color: i
         scale: 102%
+
+// * Seccion Index
 
 .link-reviews
     text-decoration: none
@@ -64,12 +70,15 @@ h2
     align-items: center
 
 img
-    height: 160px
     border-radius: 6px
     aspect-ratio: 11/16
 
+.mini-poster
+    height: 160px
+
 .reviews-card-container
     margin-inline: 0px
+    margin-block-end: 100px
 
 .fallout-76
     background-image: linear-gradient(140deg, $fallout-color-a, $card-color, $card-color)
@@ -122,19 +131,114 @@ img
         color: $HellLetLoose-color-b
 
 .metal-hellsinger
-    background-image: linear-gradient(140deg, #9F210A, $card-color, $card-color)
-    color: #F93F14
+    background-image: linear-gradient(140deg, $MetalHellSinger-color-a, $card-color, $card-color)
+    color: $MetalHellSinger-color-b
     i
-        color: #9F210A
+        color: $MetalHellSinger-color-a
     p
-        color: #F93F14
+        color: $MetalHellSinger-color-b
     &:hover
-        color: #F93F14
+        color: $MetalHellSinger-color-b
 
 footer
     background-color: #38302e
-    position: absolute
+    position: static
     bottom: 0
-    width: 100vw
     padding: 10px
+    width: 100%
     color: #707070
+
+// * Seccion Reviews
+.review-content
+    margin: 10px
+
+.big-poster
+    margin-inline-end: 60px
+    height: 480px
+    aspect-ratio: 11/16
+
+.review-container
+    display: flex
+    padding: 30px
+    border-radius: 15px
+    margin: 10px
+    .review-content
+        iframe
+            width: 100%
+
+.rc-fallout76
+    border: 2px solid $fallout-color-a
+    h1
+        color: $fallout-color-b
+    .review-content
+        p
+            color: $fallout-color-a
+        i
+            color: $fallout-color-b
+        h2
+            color: $fallout-color-b
+
+.rc-ultrakill
+    border: 2px solid $UltraKill-color-a
+    h1
+        color: $UltraKill-color-b
+    .review-content
+        p
+            color: $UltraKill-color-a
+        i
+            color: $UltraKill-color-b
+        h2
+            color: $UltraKill-color-b
+
+.rc-valheim
+    border: 2px solid $Valheim-color-a
+    h1
+        color: $Valheim-color-b
+    .review-content
+        p
+            color: $Valheim-color-a
+        i
+            color: $Valheim-color-b
+        h2
+            color: $Valheim-color-b
+
+.rc-a-short-hike
+    border: 2px solid $AShortHike-color-a
+    h1
+        color: $AShortHike-color-b
+    .review-content
+        p
+            color: $AShortHike-color-a
+        i
+            color: $AShortHike-color-b
+        h2
+            color: $AShortHike-color-b
+
+.rc-hell-let-loose
+    border: 2px solid $HellLetLoose-color-a
+    h1
+        color: $HellLetLoose-color-b
+    .review-content
+        p
+            color: $HellLetLoose-color-a
+        i
+            color: $HellLetLoose-color-b
+        h2
+            color: $HellLetLoose-color-b
+
+.rc-metal-hellsinger
+    border: 2px solid $MetalHellSinger-color-a
+    h1
+        color: $MetalHellSinger-color-b
+    .review-content
+        p
+            color: $MetalHellSinger-color-a
+        i
+            color: $MetalHellSinger-color-b
+        h2
+            color: $MetalHellSinger-color-b
+
+@media only screen and ( max-width: 850px )
+    .review-container
+        flex-direction: column
+        align-items: center

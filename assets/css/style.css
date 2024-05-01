@@ -59,13 +59,17 @@ h2 {
 }
 
 img {
-  height: 160px;
   border-radius: 6px;
   aspect-ratio: 11/16;
 }
 
+.mini-poster {
+  height: 160px;
+}
+
 .reviews-card-container {
   margin-inline: 0px;
+  margin-block-end: 100px;
 }
 
 .fallout-76 {
@@ -125,11 +129,11 @@ img {
 }
 
 .hell-let-loose {
-  background-image: linear-gradient(140deg, #303940, #3B3433, #3B3433);
+  background-image: linear-gradient(140deg, #778e9f, #3B3433, #3B3433);
   color: #FEFEFC;
 }
 .hell-let-loose i {
-  color: #303940;
+  color: #778e9f;
 }
 .hell-let-loose p {
   color: #FEFEFC;
@@ -154,9 +158,132 @@ img {
 
 footer {
   background-color: #38302e;
-  position: absolute;
+  position: static;
   bottom: 0;
-  width: 100vw;
   padding: 10px;
+  width: 100%;
   color: #707070;
+}
+
+.review-content {
+  margin: 10px;
+}
+
+.big-poster {
+  margin-inline-end: 60px;
+  height: 480px;
+  aspect-ratio: 11/16;
+}
+
+.review-container {
+  display: flex;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 10px;
+}
+.review-container .review-content iframe {
+  width: 100%;
+}
+
+.rc-fallout76 {
+  border: 2px solid #DCB722;
+}
+.rc-fallout76 h1 {
+  color: #D0B66A;
+}
+.rc-fallout76 .review-content p {
+  color: #DCB722;
+}
+.rc-fallout76 .review-content i {
+  color: #D0B66A;
+}
+.rc-fallout76 .review-content h2 {
+  color: #D0B66A;
+}
+
+.rc-ultrakill {
+  border: 2px solid #90040A;
+}
+.rc-ultrakill h1 {
+  color: #CA0301;
+}
+.rc-ultrakill .review-content p {
+  color: #90040A;
+}
+.rc-ultrakill .review-content i {
+  color: #CA0301;
+}
+.rc-ultrakill .review-content h2 {
+  color: #CA0301;
+}
+
+.rc-valheim {
+  border: 2px solid #3CBEFA;
+}
+.rc-valheim h1 {
+  color: #8BDAFE;
+}
+.rc-valheim .review-content p {
+  color: #3CBEFA;
+}
+.rc-valheim .review-content i {
+  color: #8BDAFE;
+}
+.rc-valheim .review-content h2 {
+  color: #8BDAFE;
+}
+
+.rc-a-short-hike {
+  border: 2px solid #FA841F;
+}
+.rc-a-short-hike h1 {
+  color: #ECAE38;
+}
+.rc-a-short-hike .review-content p {
+  color: #FA841F;
+}
+.rc-a-short-hike .review-content i {
+  color: #ECAE38;
+}
+.rc-a-short-hike .review-content h2 {
+  color: #ECAE38;
+}
+
+.rc-hell-let-loose {
+  border: 2px solid #778e9f;
+}
+.rc-hell-let-loose h1 {
+  color: #FEFEFC;
+}
+.rc-hell-let-loose .review-content p {
+  color: #778e9f;
+}
+.rc-hell-let-loose .review-content i {
+  color: #FEFEFC;
+}
+.rc-hell-let-loose .review-content h2 {
+  color: #FEFEFC;
+}
+
+.rc-metal-hellsinger {
+  border: 2px solid #9F210A;
+}
+.rc-metal-hellsinger h1 {
+  color: #F93F14;
+}
+.rc-metal-hellsinger .review-content p {
+  color: #9F210A;
+}
+.rc-metal-hellsinger .review-content i {
+  color: #F93F14;
+}
+.rc-metal-hellsinger .review-content h2 {
+  color: #F93F14;
+}
+
+@media only screen and (max-width: 850px) {
+  .review-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
