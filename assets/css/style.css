@@ -7,6 +7,7 @@ a {
   transition: all 150ms ease-in-out;
 }
 a:hover {
+  color: i;
   scale: 102%;
 }
 
@@ -77,6 +78,9 @@ img {
 .fallout-76 p {
   color: #D0B66A;
 }
+.fallout-76:hover {
+  color: #D0B66A;
+}
 
 .ultrakill {
   background-image: linear-gradient(140deg, #90040A, #3B3433, #3B3433);
@@ -86,6 +90,9 @@ img {
   color: #90040A;
 }
 .ultrakill p {
+  color: #CA0301;
+}
+.ultrakill:hover {
   color: #CA0301;
 }
 
@@ -99,6 +106,9 @@ img {
 .valheim p {
   color: #8BDAFE;
 }
+.valheim:hover {
+  color: #8BDAFE;
+}
 
 .a-short-hike {
   background-image: linear-gradient(140deg, #FA841F, #3B3433, #3B3433);
@@ -108,6 +118,9 @@ img {
   color: #FA841F;
 }
 .a-short-hike p {
+  color: #ECAE38;
+}
+.a-short-hike:hover {
   color: #ECAE38;
 }
 
@@ -121,6 +134,9 @@ img {
 .hell-let-loose p {
   color: #FEFEFC;
 }
+.hell-let-loose:hover {
+  color: #FEFEFC;
+}
 
 .metal-hellsinger {
   background-image: linear-gradient(140deg, #9F210A, #3B3433, #3B3433);
@@ -130,6 +146,9 @@ img {
   color: #9F210A;
 }
 .metal-hellsinger p {
+  color: #F93F14;
+}
+.metal-hellsinger:hover {
   color: #F93F14;
 }
 

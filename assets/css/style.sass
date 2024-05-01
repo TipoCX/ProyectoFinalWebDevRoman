@@ -9,8 +9,6 @@ $AShortHike-color-a: #FA841F
 $AShortHike-color-b: #ECAE38
 $HellLetLoose-color-a: #303940
 $HellLetLoose-color-b: #FEFEFC
-$MetalHellSinger-color-a: #9F210A
-$MetalHellSinger-color-b: #F93F14
 
 body
     background-color: #292423
@@ -20,6 +18,7 @@ a
     transition: all 150ms ease-in-out
 
     &:hover
+        color: i
         scale: 102%
 
 .link-reviews
@@ -79,6 +78,8 @@ img
         color: $fallout-color-a
     p
         color: $fallout-color-b
+    &:hover
+        color: $fallout-color-b
 
 .ultrakill
     background-image: linear-gradient(140deg, $UltraKill-color-a, $card-color, $card-color)
@@ -86,6 +87,8 @@ img
     i
         color: $UltraKill-color-a
     p
+        color: $UltraKill-color-b
+    &:hover
         color: $UltraKill-color-b
 
 .valheim
@@ -95,6 +98,8 @@ img
         color: $Valheim-color-a
     p
         color: $Valheim-color-b
+    &:hover
+        color: $Valheim-color-b
 
 .a-short-hike
     background-image: linear-gradient(140deg, $AShortHike-color-a, $card-color, $card-color)
@@ -102,6 +107,8 @@ img
     i
         color: $AShortHike-color-a
     p
+        color: $AShortHike-color-b
+    &:hover
         color: $AShortHike-color-b
 
 .hell-let-loose
@@ -111,6 +118,8 @@ img
         color: $HellLetLoose-color-a
     p
         color: $HellLetLoose-color-b
+    &:hover
+        color: $HellLetLoose-color-b
 
 .metal-hellsinger
     background-image: linear-gradient(140deg, #9F210A, $card-color, $card-color)
@@ -118,6 +127,8 @@ img
     i
         color: #9F210A
     p
+        color: #F93F14
+    &:hover
         color: #F93F14
 
 footer
