@@ -1,3 +1,143 @@
 body {
   background-color: #292423;
+}
+
+a {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+a:hover {
+  scale: 102%;
+}
+
+.link-reviews {
+  text-decoration: none;
+  color: rgb(110, 110, 110);
+  padding: 8px;
+  border-radius: 5px;
+  align-self: center;
+  transition: all 150ms ease-in-out;
+}
+.link-reviews:hover {
+  color: rgba(157, 157, 157, 0.9);
+  background-color: rgba(99, 86, 83, 0.7);
+}
+
+h2 {
+  color: #A32C2C;
+  pointer-events: none;
+}
+
+.navbar-custom {
+  background-color: #292423;
+  border-bottom: 1px solid #A32C2C;
+  color: #A32C2C;
+  padding-inline: 20px;
+  position: sticky;
+  top: 0;
+  margin-bottom: 30px;
+}
+
+.toptxt {
+  margin-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.review-card {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-inline: 18px;
+  margin-block: 12px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  height: 160px;
+  border-radius: 6px;
+  aspect-ratio: 11/16;
+}
+
+.reviews-card-container {
+  margin-inline: 0px;
+}
+
+.fallout-76 {
+  background-image: linear-gradient(140deg, #DCB722, #3B3433, #3B3433);
+  color: #D0B66A;
+}
+.fallout-76 i {
+  color: #DCB722;
+}
+.fallout-76 p {
+  color: #D0B66A;
+}
+
+.ultrakill {
+  background-image: linear-gradient(140deg, #90040A, #3B3433, #3B3433);
+  color: #CA0301;
+}
+.ultrakill i {
+  color: #90040A;
+}
+.ultrakill p {
+  color: #CA0301;
+}
+
+.valheim {
+  background-image: linear-gradient(140deg, #3CBEFA, #3B3433, #3B3433);
+  color: #8BDAFE;
+}
+.valheim i {
+  color: #3CBEFA;
+}
+.valheim p {
+  color: #8BDAFE;
+}
+
+.a-short-hike {
+  background-image: linear-gradient(140deg, #FA841F, #3B3433, #3B3433);
+  color: #ECAE38;
+}
+.a-short-hike i {
+  color: #FA841F;
+}
+.a-short-hike p {
+  color: #ECAE38;
+}
+
+.hell-let-loose {
+  background-image: linear-gradient(140deg, #303940, #3B3433, #3B3433);
+  color: #FEFEFC;
+}
+.hell-let-loose i {
+  color: #303940;
+}
+.hell-let-loose p {
+  color: #FEFEFC;
+}
+
+.metal-hellsinger {
+  background-image: linear-gradient(140deg, #9F210A, #3B3433, #3B3433);
+  color: #F93F14;
+}
+.metal-hellsinger i {
+  color: #9F210A;
+}
+.metal-hellsinger p {
+  color: #F93F14;
+}
+
+footer {
+  background-color: #38302e;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px;
+  color: #707070;
 }/*# sourceMappingURL=style.css.map */
