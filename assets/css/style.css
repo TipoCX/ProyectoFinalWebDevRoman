@@ -60,11 +60,11 @@ h2 {
 
 img {
   border-radius: 6px;
-  aspect-ratio: 11/16;
 }
 
 .mini-poster {
   height: 160px;
+  aspect-ratio: 11/16;
 }
 
 .reviews-card-container {
@@ -285,5 +285,41 @@ footer {
   .review-container {
     flex-direction: column;
     align-items: center;
+  }
+}
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-width: 350px;
+}
+.about-us-container .about-us-row {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-block: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.about-us-container .about-us-row img {
+  margin: 5px;
+}
+.about-us-container .about-us-row p {
+  color: #887874;
+  margin: 5px;
+}
+
+.about-us-container .one {
+  background-image: linear-gradient(140deg, red, #3B3433, #3B3433, #3B3433, #3B3433);
+}
+.about-us-container .two {
+  background-image: linear-gradient(140deg, #3B3433, #3B3433, #3B3433, #3B3433, red);
+}
+
+@media only screen and (max-width: 500px) {
+  .about-us-container .about-us-row {
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=style.css.map */

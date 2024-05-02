@@ -1,5 +1,6 @@
 // * Seccion Varibles
 $card-color: #3B3433
+$text-color: #887874
 $fallout-color-a: #DCB722
 $fallout-color-b: #D0B66A
 $UltraKill-color-a: #90040A
@@ -71,10 +72,10 @@ h2
 
 img
     border-radius: 6px
-    aspect-ratio: 11/16
 
 .mini-poster
     height: 160px
+    aspect-ratio: 11/16
 
 .reviews-card-container
     margin-inline: 0px
@@ -242,3 +243,35 @@ footer
     .review-container
         flex-direction: column
         align-items: center
+
+// * About Us
+
+.about-us-container
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+    min-width: 350px
+    .about-us-row
+        border: 1px solid white
+        display: flex
+        justify-content: center
+        flex-direction: row
+        margin-block: 20px
+        border-radius: 20px
+        padding: 10px
+        img
+            margin: 5px
+        p
+            color: $text-color
+            margin: 5px
+.about-us-container
+    .one
+        background-image: linear-gradient(140deg, red, $card-color, $card-color, $card-color, $card-color)
+    .two
+        background-image: linear-gradient(140deg, $card-color, $card-color, $card-color, $card-color, red)
+
+@media only screen and ( max-width: 500px )
+    .about-us-container
+        .about-us-row
+            flex-wrap: wrap
